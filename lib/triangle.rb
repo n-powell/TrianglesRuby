@@ -7,7 +7,7 @@ class Triangle
 
     define_method (:equilateral?) do
     if (@side1 == @side2 && @side2 == @side3)
-      true
+        true
     else
       false
     end

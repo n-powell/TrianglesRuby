@@ -1,6 +1,8 @@
 source('https://rubygems.org')
 
-require('sinatra')
-require('rspec')
-require('pry')
-require('capybara')
+gem('sinatra')
+gem('sinatra-contrib')
+gem('capybara')
+gem('rspec')
+gem('descriptive_statistics')
+gem('pry')
