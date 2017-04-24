@@ -33,5 +33,14 @@ describe(Triangle) do
     end
   end
 
+  describe('#not_a_triangle?') do
+    it('returns true if the sum of two sides is neither less than, nor equal to a third side') do
+      test_triangle = Triangle.new(10,10,30)
+      expect(test_triangle.not_a_triangle?()).to(eq(true))
+    end
+  end
+
+
+
 
 end
